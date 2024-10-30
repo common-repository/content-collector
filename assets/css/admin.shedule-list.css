@@ -1,0 +1,99 @@
+/**
+ * Стили для страницы запланированных записей
+ * Используется только в панели администратора
+
+ * @author Webcraftic <wordpress.webraftic@gmail.com> 
+ * @copyright Webcraftic 09.02.2018 
+ */
+.factory-bootstrap-401 {
+  /*.column-post_title {
+    width: 500px;
+  }*/
+}
+.factory-bootstrap-401 #the-list td,
+.factory-bootstrap-401 #the-list th {
+  vertical-align: middle;
+}
+.factory-bootstrap-401 .check-column {
+  padding: 10px !important;
+}
+.factory-bootstrap-401 .column-status {
+  width: 120px;
+  text-align: center;
+}
+.factory-bootstrap-401 .column-group_name {
+  width: 200px;
+}
+.factory-bootstrap-401 .wbcr-autoposter-spoiler-wrap {
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+}
+.factory-bootstrap-401 .wbcr-autoposter-spoiler-wrap.wbcr-hide {
+  border-bottom: 1px dashed #e2dcdc;
+  background: #f5f5f5;
+  padding: 10px;
+}
+.factory-bootstrap-401 .wbcr-autoposter-spoiler-wrap.wbcr-hide:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  box-shadow: inset 0 -15px 30px #f9f9f9;
+}
+.factory-bootstrap-401 .wbcr-autoposter-spoiler-wrap.wbcr-show {
+  height: auto;
+}
+.factory-bootstrap-401 .wbcr-autoposter-spoiler-wrap.wbcr-show:after {
+  display: none;
+}
+.factory-bootstrap-401 .wbcr-autoposter-expand-action {
+  text-decoration: underline;
+  color: #adadad;
+  cursor: pointer;
+  float: right;
+}
+.factory-bootstrap-401 .wbcr-autoposter-warning-tr {
+  border-left: 4px solid #ff9800;
+}
+.factory-bootstrap-401 .wbcr-autoposter-danger-tr {
+  border-left: 4px solid #ce4c42;
+}
+.factory-bootstrap-401 .wbcr-autoposter-default-tr {
+  border-left: 4px solid #dedfe0;
+}
+.factory-bootstrap-401 .wbcr-autoposter-error-message {
+  display: none;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status {
+  display: inline-block;
+  padding: 0 10px 2px;
+  border-radius: 5px;
+  color: #fff;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status:active,
+.factory-bootstrap-401 .wbcr-autoposter-publish-status:focus {
+  box-shadow: none;
+  outline: none;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.publish-error {
+  background: #ce4c42;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.publish-error:hover {
+  background: #c43d33;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.complete-publish-error {
+  background: #ff9800;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.complete-publish-error:hover {
+  background: #e68900;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.complete-publish {
+  background: #8bc34a;
+}
+.factory-bootstrap-401 .wbcr-autoposter-publish-status.waiting-publish {
+  background: #dedfe0;
+  color: #afa9a9;
+}

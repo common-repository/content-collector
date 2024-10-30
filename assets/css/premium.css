@@ -1,0 +1,111 @@
+.plans{
+    display: flex;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.plans-caption{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.plans-info{
+    font-size: 18px;
+    text-align: center;
+}
+
+.plan{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.plan-box-shadow{
+    box-shadow: 0 5px 50px rgba(0, 0, 0, .06);
+}
+.plan-box{
+    border: 1px solid #e5e7f2;
+    padding: 40px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+}
+.plan-currency{
+    font-size: 22px;
+    vertical-align: top;
+    line-height: 40px;
+}
+.plan-title{
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.plan-price{
+    display: block;
+    font-size: 40px;
+    color: #ffd91a;
+    line-height: 1;
+    text-align: center;
+}
+.plan-billing-type{
+    font-size: 14px;
+    color: #666;
+}
+.plan-buy{
+    display: table;
+    background-color: #ffd91a;
+    border: 2px solid #ffd91a;
+    border-radius: 4px;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    text-decoration: none;
+    margin: 25px auto 0;
+    outline: none;
+    box-shadow: none;
+    transition: all ease-in-out 0.3s;
+}
+.plan-buy:hover{
+    background: #fff;
+    color: #ffd91a;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+}
+.plan-feature{
+    color: #666;
+    padding: 0 20px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 16px;
+}
+.plan-feature+.plan-feature .plan-feature-inner{
+    border-top: 1px solid #dde0ee;
+}
+.plan-feature .fa{
+    color: #ffd91a;
+    margin-right: 10px;
+}
+@media screen and (min-width: 550px){
+    .plan{
+        max-width: 50%;
+    }
+    .plan-billing-type{
+        display: block;
+    }
+
+}
+@media screen and (min-width: 880px){
+    .plan{
+        max-width: 33.3333%;
+    }
+    .plan-billing-type{
+        display: inline;
+    }
+
+}
+@media screen and (min-width: 1200px){
+    .plan{
+        max-width: 25%;
+    }
+}

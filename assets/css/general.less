@@ -1,0 +1,88 @@
+/**
+ * General styles
+ * @author Alex Kovalev <alex.kovalevv@gmail.com> 
+ * @copyright Alex Kovalev 08.11.2017 
+ */
+
+.factory-bootstrap-000 {
+  #wbcr_scrapes_post_type, #wbcr_scrapes_shedule_hourly_time {
+    width: 250px;
+  }
+  #wbcr-scrapes-iframe {
+    z-index: 999999;
+
+    .modal-dialog, .modal-content, .modal-body {
+      position: absolute !important;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      width: auto !important;
+      height: auto !important;
+    }
+
+    #wbcr-scrapes-iframe-render {
+      overflow: hidden;
+      height: 100%;
+      width: 100%
+    }
+  }
+
+  .wbcr-scrapes-control-xpath {
+    position: relative;
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 40px;
+      background: #efefef;
+      //border: 0;
+      //box-shadow: none;
+      border-radius: 0 3px 3px 0;
+      &:hover, &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+  }
+
+  .factory-multiple-textbox-group {
+    .factory-mtextbox-item {
+      &:first-child {
+        .wbcr-scrapes-control-xpath button {
+          right: 0;
+        }
+      }
+      .wbcr-scrapes-control-xpath button {
+        right: 39px;
+        border-radius: 0;
+      }
+    }
+
+  }
+
+}
+
+.column-actions {
+  width: 150px;
+}
+
+.column-autoparsing {
+  width: 150px;
+  text-align: center;
+  .wbcr-scrapes-table-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+    &.wbcr-green {
+      background-color: #229922;
+    }
+    &.wbcr-grey {
+      background-color: #9e9e9e;
+    }
+  }
+}

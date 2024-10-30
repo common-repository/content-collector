@@ -1,0 +1,23 @@
+.wbcr-scrapes-inspector {
+    cursor: crosshair !important;
+    box-shadow: inset 0 0 0 1000px rgba(245, 24, 41, 0.50) !important;
+    outline: 1px solid red !important;
+}
+
+.wbcr-scrapes-picked-title-section {
+    box-shadow: inset 0 0 0 1000px rgba(255, 182, 53, 0.50) !important;
+    outline: 1px solid orange !important;
+}
+
+.wbcr-scrapes-picked-content-section {
+    box-shadow: inset 0 0 0 1000px rgba(255, 140, 113, 0.50) !important;
+    outline: 1px solid #ff846b !important;
+}
+
+.wbcr-scrapes-picked-title-section .wbcr-scrapes-picked-filter-section,
+.wbcr-scrapes-picked-content-section .wbcr-scrapes-picked-filter-section {
+    box-shadow: inset 0 0 0 1000px rgba(168, 238, 105, 0.50) !important;
+    outline: 1px solid green !important;
+}
+
+/*# sourceMappingURL=iframe.css.map */

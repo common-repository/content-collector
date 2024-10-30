@@ -1,0 +1,116 @@
+/**
+ * Стили для страницы запланированных записей
+ * Используется только в панели администратора
+
+ * @author Webcraftic <wordpress.webraftic@gmail.com> 
+ * @copyright Webcraftic 09.02.2018 
+ */
+
+.factory-bootstrap-000 {
+  #the-list {
+    td, th {
+      vertical-align: middle;
+
+    }
+  }
+
+  /*.column-post_title {
+    width: 500px;
+  }*/
+  .check-column {
+    padding: 10px !important;
+  }
+  .column-status {
+    width: 120px;
+    text-align: center;
+  }
+  .column-group_name {
+    width: 200px;
+  }
+
+  .wbcr-autoposter-spoiler-wrap {
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+
+    &.wbcr-hide {
+      border-bottom: 1px dashed #e2dcdc;
+      background: #f5f5f5;
+      padding: 10px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px;
+        box-shadow: inset 0 -15px 30px #f9f9f9;
+
+      }
+    }
+    &.wbcr-show {
+      height: auto;
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .wbcr-autoposter-expand-action {
+    text-decoration: underline;
+    color: #adadad;
+    cursor: pointer;
+    float: right;
+  }
+
+  .wbcr-autoposter-warning-tr {
+    border-left: 4px solid #ff9800;
+  }
+  .wbcr-autoposter-danger-tr {
+    border-left: 4px solid #ce4c42;
+  }
+  .wbcr-autoposter-default-tr {
+    border-left: 4px solid #dedfe0;
+  }
+
+  .wbcr-autoposter-error-message {
+    display: none;
+  }
+
+  .wbcr-autoposter-publish-status {
+    display: inline-block;
+    //margin-top: 10px;
+    padding: 0 10px 2px;
+    border-radius: 5px;
+    color: #fff;
+
+    &:active, &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    &.publish-error {
+      background: #ce4c42;
+      &:hover {
+        background: darken(#ce4c42, 5%);
+      }
+    }
+    &.complete-publish-error {
+      background: #ff9800;
+      &:hover {
+        background: darken(#ff9800, 5%);
+      }
+    }
+    &.complete-publish {
+      background: #8bc34a;
+    }
+    &.waiting-publish {
+      background: #dedfe0;
+      color: #afa9a9;
+    }
+  }
+}
+
+
+

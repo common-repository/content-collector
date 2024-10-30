@@ -1,0 +1,1139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPParser\n"
+"POT-Creation-Date: 2018-08-01 15:52+0400\n"
+"PO-Revision-Date: 2018-08-01 15:53+0400\n"
+"Last-Translator: \n"
+"Language-Team: WPParser\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../../../var/www/mediagroup/test.loc/wp-content/plugins/"
+"wp-parser\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/boot.php:170 admin/pages/index.php:169
+msgid "Ошибка"
+msgstr "Error"
+
+#: admin/boot.php:171
+msgid ""
+"Количество запросов на сегодня исчерпано. Лимиты сбрасываются каждые 24 часа"
+msgstr ""
+"The number of requests for today is spent. Limits are update every 24 hours"
+
+#: admin/boot.php:172
+msgid "Хотите парсить больше? Перейдите на премиум тариф."
+msgstr "Do you want to parse more? Check premium plans."
+
+#: admin/boot.php:173
+msgid "Купить"
+msgstr "Buy"
+
+#: admin/includes/class.extract-async-post.php:94
+#: admin/includes/class.extract-post.php:383
+msgid "Не удалось получить контент спарсенной записи."
+msgstr "Cannot load post content."
+
+#: admin/includes/class.extract-async-post.php:203
+#: admin/includes/class.extract-post.php:474
+msgid "Can not update post. Uncertain error."
+msgstr ""
+
+#: admin/includes/class.tasks.viewtable.php:14
+msgid "Заголовок задания"
+msgstr "Task name"
+
+#: admin/includes/class.tasks.viewtable.php:20
+msgid "Источник"
+msgstr "Source"
+
+#: admin/includes/class.tasks.viewtable.php:22
+msgid "Действия"
+msgstr "Actions"
+
+#: admin/includes/class.tasks.viewtable.php:23
+msgid "Запуск по расписанию"
+msgstr "Scheduled launch"
+
+#: admin/includes/class.tasks.viewtable.php:83
+msgid "Начать парсинг"
+msgstr "Start"
+
+#: admin/metaboxes/base-options.php:48
+msgid "Базовые настройки"
+msgstr "General settings"
+
+#: admin/metaboxes/base-options.php:87 admin/metaboxes/images-options.php:85
+#: admin/metaboxes/shedule-options.php:93
+msgid "Пожалуйста, завершите настройки первого шага."
+msgstr "Please complete first step settings."
+
+#: admin/metaboxes/base-options.php:146
+msgid "Выберите сайт"
+msgstr "Select site"
+
+#: admin/metaboxes/base-options.php:171
+#: libs/factory/forms/controls/dropdown.php:262
+#: libs/factory/forms/controls/dropdown.php:337
+msgid "- empty -"
+msgstr ""
+
+#: admin/metaboxes/base-options.php:173
+msgid ""
+"Введите сайт, для создания шаблона. Данный шаблон будет применяться для "
+"точности собираемой информации."
+msgstr ""
+"Add a website to create the template. This template will be used to collect "
+"relevant data."
+
+#: admin/metaboxes/base-options.php:180 admin/metaboxes/base-options.php:188
+#: admin/metaboxes/base-options.php:261
+#: admin/metaboxes/facebook-options.php:129
+msgid "Введите строку в формате xpath"
+msgstr "Type string as xpath"
+
+#: admin/metaboxes/base-options.php:181
+msgid "Отметьте заголовок записи"
+msgstr "Choose the post title"
+
+#: admin/metaboxes/base-options.php:182
+msgid "Укажите парсеру, из какой части шаблона брать заголовок записи."
+msgstr "Specify the part of the template for the post title."
+
+#: admin/metaboxes/base-options.php:189
+msgid "Отметьте содержание записи"
+msgstr "Choose the post content"
+
+#: admin/metaboxes/base-options.php:190
+msgid "Укажите парсеру, из какой части шаблона брать содержание записи."
+msgstr "Specify the part of the template for post content."
+
+#: admin/metaboxes/base-options.php:207
+msgid "Выберите категории"
+msgstr "Choose categories"
+
+#: admin/metaboxes/base-options.php:209
+msgid "Выберите категории, которые необходимо присвоить добавленным записям."
+msgstr "Specify categories you want to assign to the added posts."
+
+#: admin/metaboxes/base-options.php:217
+msgid "Черновик"
+msgstr "Draft"
+
+#: admin/metaboxes/base-options.php:218
+msgid "Опубликована"
+msgstr "Public"
+
+#: admin/metaboxes/base-options.php:219
+msgid "На утверждении"
+msgstr "Pending Review"
+
+#: admin/metaboxes/base-options.php:220
+msgid "Личная"
+msgstr "Private"
+
+#: admin/metaboxes/base-options.php:223
+msgid "Статус записи (по умолчанию)"
+msgstr "Post status (default)"
+
+#: admin/metaboxes/base-options.php:224
+msgid "Выберите статус записи, который будет установлен ей после сохранения."
+msgstr "Choose the post status after saving."
+
+#: admin/metaboxes/base-options.php:236
+msgid "Мета тег og:description"
+msgstr "Meta tag  og:description"
+
+#: admin/metaboxes/base-options.php:238
+msgid "Запись в Facebook"
+msgstr "Facebook post"
+
+#: admin/metaboxes/base-options.php:251
+msgid "Краткое описание записи"
+msgstr "Post description"
+
+#: admin/metaboxes/base-options.php:252
+msgid "Выберите режим, откуда извлекать краткое описание записи."
+msgstr "Choose the parsing mode of the post description."
+
+#: admin/metaboxes/base-options.php:260
+msgid "Фильтры"
+msgstr "Filters"
+
+#: admin/metaboxes/base-options.php:262
+msgid ""
+"Если Вкл., плагин будет собирать внешние ссылки на другие сайты. Но не будет "
+"переходить по ним."
+msgstr ""
+"If On, the plugin will collect external links to other sites without "
+"visiting them."
+
+#: admin/metaboxes/base-options.php:270
+msgid "Вырезать ссылки на внешние сайты"
+msgstr "Cut links to external sites"
+
+#: admin/metaboxes/base-options.php:277
+msgid "Оставлять ссылку на источник"
+msgstr "Keep source link"
+
+#: admin/metaboxes/base-options.php:284
+msgid "Оставлять ссылки на социальные сети"
+msgstr "Keep links to social media"
+
+#: admin/metaboxes/facebook-options.php:43
+msgid "ШАГ #1. Настройки"
+msgstr "Step #1. Settings"
+
+#: admin/metaboxes/facebook-options.php:73
+msgid "Facebook страницы"
+msgstr ""
+
+#: admin/metaboxes/facebook-options.php:75
+msgid "Сайты"
+msgstr "Sites"
+
+#: admin/metaboxes/facebook-options.php:76
+msgid "Ссылки"
+msgstr "Links"
+
+#: admin/metaboxes/facebook-options.php:92
+msgid "Выберите канал для парсинга"
+msgstr "Choose the parsing source"
+
+#: admin/metaboxes/facebook-options.php:102
+msgid "ID группы в facebook"
+msgstr "Facebook group ID"
+
+#: admin/metaboxes/facebook-options.php:103
+msgid ""
+"Введите ID выбранной вами группы в facebook, из этой группы будут "
+"извлекаться ссылки на импортируемый контент."
+msgstr "Enter ID of the Facebook group to collect links."
+
+#: admin/metaboxes/facebook-options.php:112
+msgid "Ссылки для парсинга"
+msgstr "Parsing links"
+
+#: admin/metaboxes/facebook-options.php:113
+msgid ""
+"Вставляйте ссылки на записи, которые хотите спарсить. Все ссылки добавляете "
+"с новой строки."
+msgstr ""
+"Add links to the posts you want to parse. Each link should be added in a "
+"separate line."
+
+#: admin/metaboxes/facebook-options.php:122
+msgid "Введите ссылку пагинации"
+msgstr "Add link to the pagination page"
+
+#: admin/metaboxes/facebook-options.php:123
+msgid ""
+"Парсер будет переходить по страницам, используя этот шаблон ссылки, чтобы "
+"спарсить все записи."
+msgstr "Plugin will open all pages from this URL template and parse all posts."
+
+#: admin/metaboxes/facebook-options.php:130
+msgid "Отметьте ссылку на запись"
+msgstr "Specify where links to the posts should be collected"
+
+#: admin/metaboxes/facebook-options.php:131
+msgid "Укажите парсеру, откуда брать ссылки на страницы записей."
+msgstr "Specify where links to the posts should be collected."
+
+#: admin/metaboxes/facebook-options.php:137
+msgid "Сколько записей на странице?"
+msgstr "How many posts should be on the page?"
+
+#: admin/metaboxes/facebook-options.php:138
+msgid "Введите число записей, которые вы видите на странице пагинации."
+msgstr "Enter the number of posts per one pagination page."
+
+#: admin/metaboxes/facebook-options.php:153
+msgid "Лимит публикуемых записей"
+msgstr "Limit of published posts"
+
+#: admin/metaboxes/facebook-options.php:154
+msgid ""
+"Установите сколько вам нужно собрать и опубликовать записей за одно "
+"выполнение задания."
+msgstr "Specify how many posts should be collected and published per one task."
+
+#: admin/metaboxes/facebook-options.php:164
+msgid "Лимит записей для анализа"
+msgstr "Limit of posts for analysis"
+
+#: admin/metaboxes/facebook-options.php:165
+msgid ""
+"Установите из скольки записей нужно отобрать самые популярные. Это число "
+"должно быть больше, чем лимит публикуемых записей. По умолчанию 10."
+msgstr ""
+"Specify the how many posts should be used to evaluate the most popular. The "
+"number should be greater than the limit of published posts. \"10\" by "
+"default."
+
+#: admin/metaboxes/facebook-options.php:173
+msgid "Отбирать записи по дате?"
+msgstr "Sort posts by date?"
+
+#: admin/metaboxes/facebook-options.php:174
+#: admin/metaboxes/facebook-options.php:196
+msgid ""
+"Если Вкл., вы сможете установить настройки выбора записей за установленный "
+"период времени."
+msgstr "If On, you can set up post selection on the scheduled period."
+
+#: admin/metaboxes/facebook-options.php:195
+msgid "Выберите период"
+msgstr "Select a period"
+
+#: admin/metaboxes/images-options.php:46
+msgid "Настройки получаемых изображений"
+msgstr "Image settings"
+
+#: admin/metaboxes/images-options.php:162
+msgid "Загружать изображения?"
+msgstr "Upload images?"
+
+#: admin/metaboxes/images-options.php:163
+msgid ""
+"Если Вкл., плагин будет загружать все собранные изображения на ваш сервер."
+msgstr "If On, the plugin will download collected images to your server."
+
+#: admin/metaboxes/images-options.php:170
+msgid "Минимальная ширина загружаемых изображений"
+msgstr "Minimum width of uploaded images"
+
+#: admin/metaboxes/images-options.php:171
+msgid ""
+"Установите ограничение на ширину получаемых изображений. По умолчанию 300"
+msgstr "Specify the maximum width of uploaded images. \"300\" by default"
+
+#: admin/metaboxes/images-options.php:178
+msgid "Минимальная высота загружаемых изображений"
+msgstr "Minimum height of uploaded images"
+
+#: admin/metaboxes/images-options.php:179
+msgid ""
+"Установите ограничение на высоту получаемых изображений. По умолчанию 100"
+msgstr "Specify the maximum height of uploaded images. \"300\" by default"
+
+#: admin/metaboxes/shedule-options.php:46
+msgid "Настройки запуска по расписанию"
+msgstr "Schedule settings"
+
+#: admin/metaboxes/shedule-options.php:134
+msgid "Запускать парсинг по расписанию?"
+msgstr "Launch parsing on a schedule?"
+
+#: admin/metaboxes/shedule-options.php:135
+#: admin/metaboxes/shedule-options.php:187
+msgid "Включить/выключить запуск парсинга автоматически по рассписаю."
+msgstr "Enable/disable autostart on a schedule."
+
+#: admin/metaboxes/shedule-options.php:150
+msgid "Hourly"
+msgstr ""
+
+#: admin/metaboxes/shedule-options.php:151
+msgid "Daily"
+msgstr ""
+
+#: admin/metaboxes/shedule-options.php:152
+msgid "Weekly"
+msgstr ""
+
+#: admin/metaboxes/shedule-options.php:153
+msgid "Monthly"
+msgstr ""
+
+#: admin/metaboxes/shedule-options.php:170
+msgid "Выполнять задание через"
+msgstr "Period for re-execution"
+
+#: admin/metaboxes/shedule-options.php:171
+msgid ""
+"Выберите период, через какой промежуток времени повторять выполнение задания."
+msgstr "Select the period for re-execution of the task."
+
+#: admin/metaboxes/shedule-options.php:179
+msgid "1 час"
+msgstr "1 hour"
+
+#: admin/metaboxes/shedule-options.php:180
+msgid "3 часа"
+msgstr "3 hours"
+
+#: admin/metaboxes/shedule-options.php:181
+msgid "5 часов"
+msgstr "5 hours"
+
+#: admin/metaboxes/shedule-options.php:182
+msgid "7 часов"
+msgstr "7 hours"
+
+#: admin/metaboxes/shedule-options.php:183
+msgid "10 часов"
+msgstr "10 hours"
+
+#: admin/metaboxes/shedule-options.php:184
+msgid "15 часов"
+msgstr "15 hours"
+
+#: admin/metaboxes/shedule-options.php:185
+msgid "20 часов"
+msgstr "20 hours"
+
+#: admin/pages/help.php:29 admin/pages/help.php:49
+msgid "Справка"
+msgstr "Help"
+
+#: admin/pages/help.php:50
+msgid "Содержание"
+msgstr "Content"
+
+#: admin/pages/help.php:53 admin/pages/help.php:60
+msgid "Видео"
+msgstr "Video"
+
+#: admin/pages/help.php:55 admin/pages/help.php:77
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/pages/help.php:56 admin/pages/help.php:117
+msgid "Контакты"
+msgstr "Contacts"
+
+#: admin/pages/help.php:61
+msgid ""
+"Наши обучающие видео продемонстрируют Вам как настроить и начать "
+"использовать плагин"
+msgstr ""
+"Our training videos will show you how to set up and start using the plugin"
+
+#: admin/pages/help.php:79
+msgid ""
+"Возможно ли парсить статьи с сайта, у которого отсутствует\n"
+"                    пагинация?"
+msgstr ""
+"Is it possible to parse articles from the website where pagination is "
+"missing?"
+
+#: admin/pages/help.php:81
+msgid ""
+"Да, но в таком случае вам необходимо дать парсеру ссылки на сами статьи."
+msgstr "Yes, but in this case you will need to add all links to articles."
+
+#: admin/pages/help.php:84
+msgid "Можно спарсить любую статью?"
+msgstr "Can I parse any article?"
+
+#: admin/pages/help.php:85 admin/pages/help.php:107
+msgid "Да."
+msgstr "Yes."
+
+#: admin/pages/help.php:88
+msgid "Я могу парсить статьи только с сайтов на Вордпрессе?"
+msgstr "Can I parse articles from Wordress websites only?"
+
+#: admin/pages/help.php:89
+msgid "Нет, парсер работает с сайтами на любой платформе."
+msgstr "No, parser supports all website platforms."
+
+#: admin/pages/help.php:92
+msgid ""
+"У меня нет сайта на Вордпрессе, могу ли я пользоваться услугами\n"
+"                    сервиса?"
+msgstr "I don't have any Wordpress website. Can I still use this service?"
+
+#: admin/pages/help.php:94
+msgid "В данный момент  нет но мы занимаемся поиском решения этого вопроса."
+msgstr ""
+"Unfortunately, you can’t for now. But we are trying to find the solution for "
+"this."
+
+#: admin/pages/help.php:97
+msgid "Сколько сайтов-источников я могу использовать для парсинга?"
+msgstr "How many source websites can I use for parsing?"
+
+#: admin/pages/help.php:98
+msgid ""
+"В зависимости от выбранного тарифа. По умолчанию, на бесплатном тарифе можно "
+"использовать 3 сайта источника."
+msgstr ""
+"Depends on your plan. Free plan allows using 3 source websites by default."
+
+#: admin/pages/help.php:101
+msgid ""
+"Я хочу купить новый тариф, но у меня не израсходован месячный лимит\n"
+"                    парсинга на старом. Оплаченный ранее период будет "
+"аннулирован?"
+msgstr ""
+"I want to purchase a new plan, but my monthly limit from the current plan "
+"hasn't been exceeded. Will I lose my pre-paid period?"
+
+#: admin/pages/help.php:103
+msgid ""
+"Нет, не израсходованный период будет компенсирован в виде денежных средств "
+"на балансе, которые можно потратить на оплату нового тарифного плана."
+msgstr ""
+"No, remaining period will be compensated by partial refund to your account. "
+"You could use this amount to pay for a new plan."
+
+#: admin/pages/help.php:106
+msgid "Оказывает ли сервис поддержку на бесплатном тарифе?"
+msgstr "Can I have a tech support on a free plan?"
+
+#: admin/pages/help.php:110
+msgid "Не могу настроить задание. Что делать?"
+msgstr "I can’t set up the task. What should I do?"
+
+#: admin/pages/help.php:111
+msgid "Обратитесь в техническую поддержку."
+msgstr "You should contact our technical support."
+
+#: admin/pages/help.php:118
+msgid ""
+"Не нашли ответа на свой вопрос? Или у вас есть для нас интересное "
+"предложение?"
+msgstr ""
+"Did not find the answer to your question? Or do you have an interesting "
+"offer for us?"
+
+#: admin/pages/help.php:119
+#, php-format
+msgid ""
+"Вы можете связаться с нами по электронной почте %s wpparser@gmail.com %s"
+msgstr "You can contact us by email %s wpparser@gmail.com %s"
+
+#: admin/pages/index.php:29
+msgid "Процесс парсинга"
+msgstr "Parsing progress"
+
+#: admin/pages/index.php:125
+msgid "Удалить"
+msgstr "Remove"
+
+#: admin/pages/index.php:129 admin/pages/index.php:142
+msgid "Посмотреть источник"
+msgstr "See the source"
+
+#: admin/pages/index.php:129
+msgid "Перейти к записи"
+msgstr "Go to the post"
+
+#: admin/pages/index.php:147
+msgid "Исчерпаны дневные лимиты"
+msgstr "Daily limit reached"
+
+#: admin/pages/index.php:148
+msgid "Показать тарифы"
+msgstr "Show plans"
+
+#: admin/pages/index.php:153
+msgid ""
+"Сбой авторизации<br>Попробуйте переактивировать плагин или нажать "
+"синхронизовать лицензию в личном кабинете"
+msgstr "Auth failed<br>Try reactivated plugin or click 'sync'"
+
+#: admin/pages/index.php:157
+#, fuzzy
+msgid "Загружено {posts_length} постов"
+msgstr "{posts_length} posts loaded"
+
+#: admin/pages/index.php:163
+msgid "Готово!"
+msgstr "Done!"
+
+#: admin/pages/index.php:165
+msgid "Загрузка.."
+msgstr "Loading.."
+
+#: admin/pages/index.php:166
+msgid "Пожалуйста, подождите"
+msgstr "Please wait"
+
+#: admin/pages/logs.php:26 admin/pages/logs.php:44
+msgid "Лог ошибок"
+msgstr "Error log"
+
+#: admin/pages/logs.php:46
+msgid "Очистить лог"
+msgstr "Clear log"
+
+#: admin/pages/permissions-settings.php:19
+msgid "Настройка доступа"
+msgstr "Access settings"
+
+#: admin/pages/permissions-settings.php:89
+#, php-format
+msgid "Роль %s"
+msgstr "Role %s"
+
+#: admin/pages/permissions-settings.php:91
+#, php-format
+msgid "Предоставляет доступ для пользователей с ролью %s."
+msgstr "Give access to user with role %s."
+
+#: admin/pages/permissions-settings.php:104
+msgid "Ключ активации"
+msgstr "Activation code"
+
+#: admin/pages/permissions-settings.php:143 admin/pages/settings.php:140
+#: libs/factory/pages/templates/impressive-page.class.php:353
+msgid "The settings have been updated successfully!"
+msgstr ""
+
+#: admin/pages/permissions-settings.php:154
+msgid "Save Changes"
+msgstr ""
+
+#: admin/pages/settings.php:34
+msgid "Общие настройки"
+msgstr "General settings"
+
+#: admin/pages/settings.php:83
+msgid "ID приложения"
+msgstr "Application ID"
+
+#: admin/pages/settings.php:85
+msgid "Введите ID приложения в Facebook."
+msgstr "Type the Facebook application ID."
+
+#: admin/pages/settings.php:92
+msgid "Секретный ключ приложения"
+msgstr "Private key of the application"
+
+#: admin/pages/settings.php:94
+msgid "Введите секретный ключ приложения в Facebook."
+msgstr "Enter the private key of the Facebook application."
+
+#: admin/pages/settings.php:135
+msgid "Общие настройки парсера"
+msgstr "General settings"
+
+#: admin/pages/settings.php:148
+msgid ""
+"Ошибка авторизации! Произошла неизвестная ошибка при авторизации приложения."
+msgstr ""
+"Authorization Error! An unknown error occurred when attempting to authorize "
+"the application."
+
+#: admin/pages/settings.php:151
+msgid "Ошибка! У приложения нет подключенных facebook страниц."
+msgstr "Error! Application doesn't have any associated Facebook pages."
+
+#: admin/pages/settings.php:163
+msgid "Сохранить настройки"
+msgstr "Save settings"
+
+#: admin/pages/settings.php:292
+msgid "Заполните обязательные данные по вашему приложению"
+msgstr "Enter required information for your application"
+
+#: admin/pages/settings.php:303
+msgid "Авторизуйтесь, чтобы получить маркер доступа"
+msgstr "Log in to get an access token"
+
+#: admin/pages/settings.php:336
+msgid "Авторизоваться"
+msgstr "Log in"
+
+#: admin/pages/settings.php:338
+msgid "Сбросить настройки приложения"
+msgstr "Reset application settings"
+
+#: admin/pages/signin.php:28 admin/pages/signin.php:52
+#: admin/pages/signin.php:134 admin/pages/signin.php:144
+msgid "Активация"
+msgstr "Activation"
+
+#: admin/pages/signin.php:54
+msgid "Плагин установлен!"
+msgstr "The plugin is installed!"
+
+#: admin/pages/signin.php:55
+msgid "Прежде чем начать пользоваться, нужно войти в систему"
+msgstr "Before you start using, you need to log in"
+
+#: admin/pages/signin.php:56
+#, php-format
+msgid ""
+"Пройдите регистрацию в 1 клик, нажав кнопку \"быстрая регистрация\" и вы "
+"будете зарегистрированы как %s бесплатно"
+msgstr ""
+"Complete registration in one click by clicking the \"quick registration\" "
+"button and you will be registered as % s for free"
+
+#: admin/pages/signin.php:57
+msgid "На указанную почту придет письмо с доступом к личному кабинету"
+msgstr ""
+"A letter with access to the private office will come to the specified mail"
+
+#: admin/pages/signin.php:62
+msgid "Быстрая регистрация"
+msgstr "Quick registration"
+
+#: admin/pages/signin.php:67
+msgid "или"
+msgstr "or"
+
+#: admin/pages/signin.php:67 admin/pages/signin.php:147
+msgid "Зарегистрироваться на сайте"
+msgstr "Register on the site"
+
+#: admin/pages/signin.php:69
+msgid "В сутки можно спарсить ограниченное количество постов"
+msgstr "Every day you can parse a limited number of posts"
+
+#: admin/pages/signin.php:70
+#, php-format
+msgid ""
+"В %sличном кабинете%s Вы можете выбрать премиум тариф с более широкими "
+"возможностями для парсинга"
+msgstr ""
+"In %syour account%s you can choose a premium tariff with more privileges"
+
+#: admin/pages/signin.php:136
+msgid "Все готово!"
+msgstr "Done!"
+
+#: admin/pages/signin.php:137
+msgid "Начать пользоваться"
+msgstr "Launch"
+
+#: admin/pages/signin.php:145
+msgid "Не удалось пройти быструю регистрацию."
+msgstr "Failed to pass fast registration."
+
+#: admin/pages/signin.php:146
+msgid "Вы можете зарегистрироваться вручную"
+msgstr "You can register manually"
+
+#: admin/types/tasks-post-types.php:36 admin/types/tasks-post-types.php:37
+msgid "WP Parser"
+msgstr ""
+
+#: admin/types/tasks-post-types.php:60
+msgid "Задания"
+msgstr "Tasks"
+
+#: admin/types/tasks-post-types.php:61
+msgid "+ Новое задание"
+msgstr "Add task"
+
+#: admin/types/tasks-post-types.php:62
+msgid "Добавить новое"
+msgstr "Add new"
+
+#: admin/types/tasks-post-types.php:63
+msgid "Редактировать"
+msgstr "Edit"
+
+#: admin/types/tasks-post-types.php:64
+msgid "Редактировать задание"
+msgstr "Edit task"
+
+#: admin/types/tasks-post-types.php:65
+msgid "Новое задание"
+msgstr "New task"
+
+#: admin/types/tasks-post-types.php:66
+msgid "Просмотр"
+msgstr "Browse"
+
+#: admin/types/tasks-post-types.php:67
+msgid "Просмотре задания"
+msgstr "Browse task"
+
+#: admin/types/tasks-post-types.php:68
+msgid "Поиск заданий"
+msgstr "Find tasks"
+
+#: admin/types/tasks-post-types.php:69
+msgid "Заданий не найдено"
+msgstr "Task not found"
+
+#: admin/types/tasks-post-types.php:70
+msgid "В корзине нет заданий"
+msgstr "No tasks in trash"
+
+#: admin/types/tasks-post-types.php:71
+msgid "Родительское задание"
+msgstr "Parent task"
+
+#: includes/class.helpers.php:362
+msgid "Your WordPress version is below 3.5. Please update."
+msgstr ""
+
+#: includes/class.helpers.php:366
+msgid "PHP version is below 5.2.4. Please update."
+msgstr ""
+
+#: includes/class.helpers.php:371
+#, php-format
+msgid ""
+"PHP extension %s is not loaded. Please contact your server administrator or "
+"visit http://php.net/manual/en/%s.installation.php for installation."
+msgstr ""
+
+#: includes/class.helpers.php:378
+#, php-format
+msgid ""
+"%s folder is not writable. Please update permissions for this folder to "
+"chmod 755."
+msgstr ""
+
+#: includes/class.helpers.php:382
+#, php-format
+msgid ""
+"%s folder is not writable therefore logs.txt file could not be created. "
+"Please update permissions for this folder to chmod 755."
+msgstr ""
+
+#: libs/factory/core/includes/functions.php:163
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+
+#: libs/factory/core/includes/functions.php:165
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+
+#: libs/factory/forms/controls/checkbox.php:133
+msgid "On"
+msgstr ""
+
+#: libs/factory/forms/controls/checkbox.php:136
+msgid "Off"
+msgstr ""
+
+#: libs/factory/forms/controls/dropdown.php:130
+#: libs/factory/forms/controls/list.php:96
+#: libs/factory/forms/controls/list.php:139
+msgid "The list is empty."
+msgstr ""
+
+#: libs/factory/forms/controls/font.php:80
+#: libs/factory/forms/controls/google-font.php:52
+msgid "(use default website font)"
+msgstr ""
+
+#: libs/factory/forms/controls/font.php:83
+msgid "Sans Serif:"
+msgstr ""
+
+#: libs/factory/forms/controls/font.php:134
+msgid "Serif:"
+msgstr ""
+
+#: libs/factory/forms/controls/font.php:190
+msgid "Monospaced:"
+msgstr ""
+
+#: libs/factory/forms/controls/google-font.php:57
+msgid "Standard:"
+msgstr ""
+
+#: libs/factory/forms/controls/google-font.php:68
+msgid "Google Fonts:"
+msgstr ""
+
+#: libs/factory/forms/controls/google-font.php:118
+msgid "Unable to retrieve the list of Google Fonts."
+msgstr ""
+
+#: libs/factory/forms/controls/google-font.php:126
+msgid "Invalide response from the Google Fonts API."
+msgstr ""
+
+#: libs/factory/forms/controls/google-font.php:136
+msgid "Unexpected error. The list of Google Fonts are empty."
+msgstr ""
+
+#: libs/factory/forms/controls/gradient.php:69
+msgid "vertical"
+msgstr ""
+
+#: libs/factory/forms/controls/gradient.php:70
+msgid "horizontal"
+msgstr ""
+
+#: libs/factory/forms/controls/holders/more-link.php:58
+msgid "hide extra options"
+msgstr ""
+
+#: libs/factory/forms/controls/multiple-textbox.php:89
+#: libs/factory/types/type.class.php:384
+msgid "Add new"
+msgstr ""
+
+#: libs/factory/forms/controls/paddings-editor.php:70
+msgid "Select a side and move the slider to set up:"
+msgstr ""
+
+#: libs/factory/forms/controls/pattern.php:105
+msgid "Change color"
+msgstr ""
+
+#: libs/factory/forms/controls/pattern.php:107
+msgid "re-color"
+msgstr ""
+
+#: libs/factory/forms/controls/pattern.php:114
+msgid "Select color:"
+msgstr ""
+
+#: libs/factory/forms/controls/pattern.php:117
+msgid "Changing the color may takes a minute or more. Please be patient."
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:30
+msgid "Control"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:51
+msgid "Save"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:56
+#: libs/factory/types/type.class.php:451
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:59
+#, php-format
+msgid "Scheduled for: <b>%1$s</b>"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:61
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:67
+#, php-format
+msgid "Created on: <b>%1$s</b>"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:63
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:71
+msgid "Created <b>immediately</b>"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:65
+#, php-format
+msgid "Schedule for: <b>%1$s</b>"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:91
+msgid "Delete Permanently"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:93
+msgid "Move to Trash"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:110
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:111
+msgid "Schedule"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:116
+msgid "Publish"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:117
+msgid "Create"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:123
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:124
+msgid "Submit for Review"
+msgstr ""
+
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:131
+#: libs/factory/metaboxes/includes/publish-metabox.class.php:132
+msgid "Update"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:84
+msgid "Settings"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:354
+msgid ""
+"It seems that a caching/performance plugin is active on this site. Please "
+"manually invalidate that plugin's cache after making any changes to the "
+"settings below."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:517
+msgid "Page"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:522
+msgid "Save settings"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:646
+msgid "You do not have permission to edit page."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:777
+msgid ""
+"A neutral setting that can not harm your site, but you must be sure that you "
+"need to use it."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:783
+msgid ""
+"When set this option, you must be careful. Plugins and themes may depend on "
+"this function. You must be sure that you can disable this feature for the "
+"site."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:789
+msgid "Absolutely safe setting, We recommend to use."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:794
+msgid "Hover to the icon to get help for the feature you selected."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:812
+msgid "Do you want the plugin to improved and update?"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:815
+msgid ""
+"Help the author, leave a review on wordpress.org. Thanks to feedback, I will "
+"know that the plugin is really useful to you and is needed."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:817
+msgid "And also write your ideas on how to extend or improve the plugin."
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:822
+msgid "Go rate us and push ideas"
+msgstr ""
+
+#: libs/factory/pages/templates/impressive-page.class.php:834
+msgid "Donation for plugin development"
+msgstr ""
+
+#: libs/factory/types/type.class.php:382
+#, php-format
+msgid "All %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:383
+#, php-format
+msgid "Add %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:385
+msgid "Edit"
+msgstr ""
+
+#: libs/factory/types/type.class.php:386
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:387
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:388
+msgid "View"
+msgstr ""
+
+#: libs/factory/types/type.class.php:389
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:390
+#, php-format
+msgid "Search %1$s"
+msgstr ""
+
+#: libs/factory/types/type.class.php:391
+#, php-format
+msgid "No %1$s found"
+msgstr ""
+
+#: libs/factory/types/type.class.php:392
+#, php-format
+msgid "No %1$s found in trash"
+msgstr ""
+
+#: libs/factory/types/type.class.php:393
+#, php-format
+msgid "Parent %1$s"
+msgstr ""
+
+#: wpparser.php:106
+msgid "WP Parser - универсальный парсер контента"
+msgstr "WP Parser - the universal content parser"
+
+#: wpparser.php:111
+msgid ""
+"Универсальный парсер контента для автонаполнения блогов, новостных сайтов, "
+"сайтов каталогов и т.д. Парсер охватывает все виды контента, текст, "
+"изображения, видео."
+msgstr ""
+"Universal content parser for autofilling blogs, news websites, online "
+"catalogues, etc. The parser covers all types of content: text, images and "
+"videos."
+
+#: wpparser.php:117
+msgid ""
+"Вы используете старую версию PHP. Пожалуйста, обновите версию PHP до 5.4 и "
+"выше!"
+msgstr "PHP version is below 5.4. Please update!"
+
+#~ msgid "В месяц"
+#~ msgstr "Monthly"
+
+#~ msgid "Тарифные планы"
+#~ msgstr "Plans"
+
+#~ msgid ""
+#~ "Управление тарифными планами и пополнение баланса осуществляется в "
+#~ "%sличном кабинете%s"
+#~ msgstr ""
+#~ "Managing plans and adding funds are possible from the %sMy account%s page"
+
+#~ msgid "Начать использовать"
+#~ msgstr "Launch"
+
+#~ msgid "Задача не найдена"
+#~ msgstr "Task not found"
+
+#~ msgid "УЖЕ ДОБАВЛЕНА"
+#~ msgstr "ALREADY EXISTS"
+
+#~ msgid "%s задач"
+#~ msgstr "%s tasks"
+
+#~ msgid "%s постов в день"
+#~ msgstr "%s posts per day"
+
+#~ msgid "%s сайтов"
+#~ msgstr "%s sites"
+
+#~ msgid "постов в месяц"
+#~ msgstr "max posts in month"
+
+#~ msgid "любое кол-во постов в месяц"
+#~ msgstr "Unlimited number of posts per month"
